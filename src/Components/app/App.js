@@ -1,10 +1,14 @@
 import './app.scss'
-import Loader from '../mainScreenLoader/loader';
+// import Loader from '../mainScreenLoader/loader';
+// import MenuSrceen from '../menuScreen/menuScreen';
+import Board from '../board/board';
 
 function App() {
   return (
-    <div className="App">
-      <Loader/>
+    <div className="App d-flex">
+      {/* <Loader/>
+      <MenuSrceen/> */}
+      <Board/>
     </div>
   );
 }

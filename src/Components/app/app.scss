@@ -1,5 +1,10 @@
 
-.hey{
-    width: 100px;
-    margin: 0 auto;
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3E6D7C;
+    opacity: .47;    
 }

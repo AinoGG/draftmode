@@ -1,0 +1,39 @@
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.board-box{
+    width: 1400px;
+    height: 720px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    .firstPlayer-state,.secondPlayer-state{
+        width: 160px;
+        height: 260px;
+        background-color: #71ab77;
+    }
+    .cards-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 700px;
+        width: 1000px;
+        overflow-y: scroll;
+        margin: 0 auto;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        .cards-item{
+            width: 160px;
+            height: 260px;
+            background-color: #E87E7E;
+            margin-top: 10px;
+        }
+    }
+}
