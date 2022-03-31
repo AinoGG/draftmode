@@ -1,7 +1,5 @@
 import './loader.scss';
 const Loader = () => {
-
-    
     return (
         <div className="loader-box">
             <div className="h1 left-side">Draft</div>
