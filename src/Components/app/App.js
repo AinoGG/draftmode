@@ -1,11 +1,10 @@
 import './app.scss'
+import Loader from '../mainScreenLoader/loader';
 
 function App() {
   return (
     <div className="App">
-      <div className="hey">
-        Hey
-      </div>
+      <Loader/>
     </div>
   );
 }
