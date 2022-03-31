@@ -1,0 +1,2 @@
+# draftmode
+card game
